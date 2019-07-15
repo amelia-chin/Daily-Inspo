@@ -17,7 +17,62 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="One Day" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dnJ-bM-ZpU">
+                                <rect key="frame" x="101" y="55.5" width="173" height="56"/>
+                                <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="40"/>
+                                <color key="textColor" red="0.20048590190000001" green="0.48389040150000001" blue="0.53347636009999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="At A Time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="azC-QQ-06O">
+                                <rect key="frame" x="84.5" y="115.5" width="206" height="56"/>
+                                <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="40"/>
+                                <color key="textColor" red="0.20048590190000001" green="0.48389040150000001" blue="0.53347636009999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="73C-aO-CdZ">
+                                <rect key="frame" x="59" y="260" width="257" height="47"/>
+                                <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="25"/>
+                                <state key="normal" title="About Mental Health"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XG4-De-2g3">
+                                <rect key="frame" x="121.5" y="310" width="132" height="47"/>
+                                <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="25"/>
+                                <state key="normal" title="Resources"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VJk-CM-Pgj">
+                                <rect key="frame" x="106.5" y="360" width="162" height="47"/>
+                                <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="25"/>
+                                <state key="normal" title="How To Help"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nzr-ZR-T3u">
+                                <rect key="frame" x="97.5" y="410" width="180" height="47"/>
+                                <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="25"/>
+                                <state key="normal" title="Daily Message"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oiC-TH-xce">
+                                <rect key="frame" x="49" y="460" width="277" height="47"/>
+                                <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="25"/>
+                                <state key="normal" title="To Do List/Daily Goals"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="73C-aO-CdZ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-50" id="2sA-yb-FcV"/>
+                            <constraint firstItem="nzr-ZR-T3u" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LzV-iH-ocl"/>
+                            <constraint firstItem="dnJ-bM-ZpU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NMq-kE-ZwY"/>
+                            <constraint firstItem="VJk-CM-Pgj" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="50" id="Nzp-oJ-x6S"/>
+                            <constraint firstItem="XG4-De-2g3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TEZ-PB-mo3"/>
+                            <constraint firstItem="azC-QQ-06O" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-190" id="WzL-9E-gm7"/>
+                            <constraint firstItem="73C-aO-CdZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aEF-Fc-YMj"/>
+                            <constraint firstItem="nzr-ZR-T3u" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="100" id="ahs-VU-c2g"/>
+                            <constraint firstItem="XG4-De-2g3" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="azf-vr-kNR"/>
+                            <constraint firstItem="oiC-TH-xce" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="150" id="ciK-6E-Irp"/>
+                            <constraint firstItem="VJk-CM-Pgj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ckd-tG-Lpz"/>
+                            <constraint firstItem="oiC-TH-xce" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eLI-bM-cAu"/>
+                            <constraint firstItem="dnJ-bM-ZpU" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-250" id="gPB-Do-Qlz"/>
+                            <constraint firstItem="azC-QQ-06O" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tfR-hM-wNj"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
