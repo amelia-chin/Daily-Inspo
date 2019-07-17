@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC3BA4C622DF664B00BE6C18 /* DailyMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3BA4C522DF664B00BE6C18 /* DailyMessageViewController.swift */; };
 		CC4AD2F522DCFC9200F88C97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4AD2F422DCFC9200F88C97 /* AppDelegate.swift */; };
 		CC4AD2F722DCFC9200F88C97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4AD2F622DCFC9200F88C97 /* ViewController.swift */; };
 		CC4AD2FA22DCFC9200F88C97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC4AD2F822DCFC9200F88C97 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CC3BA4C522DF664B00BE6C18 /* DailyMessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyMessageViewController.swift; sourceTree = "<group>"; };
 		CC4AD2F122DCFC9200F88C97 /* Daily Inspo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Daily Inspo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC4AD2F422DCFC9200F88C97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC4AD2F622DCFC9200F88C97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				CC4AD30022DCFC9500F88C97 /* LaunchScreen.storyboard */,
 				CC4AD30322DCFC9500F88C97 /* Info.plist */,
 				CC4AD2FB22DCFC9200F88C97 /* Daily_Inspo.xcdatamodeld */,
+				CC3BA4C522DF664B00BE6C18 /* DailyMessageViewController.swift */,
 			);
 			path = "Daily Inspo";
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC3BA4C622DF664B00BE6C18 /* DailyMessageViewController.swift in Sources */,
 				CC4AD2FD22DCFC9200F88C97 /* Daily_Inspo.xcdatamodeld in Sources */,
 				CC4AD2F722DCFC9200F88C97 /* ViewController.swift in Sources */,
 				CC4AD2F522DCFC9200F88C97 /* AppDelegate.swift in Sources */,
