@@ -84,6 +84,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="7" y="26"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="by0-Vy-6Hi">
@@ -118,6 +119,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="Button" image="home"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="lkw-gp-cAC"/>
+                                </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text=" " textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="k8o-Bb-YFE">
                                 <rect key="frame" x="-3" y="184" width="240" height="128"/>
@@ -397,6 +401,9 @@
                                                     <constraint firstAttribute="height" constant="71" id="Udt-CF-UfU"/>
                                                 </constraints>
                                                 <state key="normal" title="Button" image="home"/>
+                                                <connections>
+                                                    <segue destination="BYZ-38-t0r" kind="show" id="f3U-zq-UhT"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- Headspace" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UP4-dm-bI2">
                                                 <rect key="frame" x="114.5" y="543" width="106" height="24"/>
@@ -487,8 +494,35 @@
             </objects>
             <point key="canvasLocation" x="1416.8" y="175.41229385307346"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="pm5-bY-5GS">
+            <objects>
+                <viewController id="XUp-GH-vgQ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Fxr-NI-Hcr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Daily Message" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Wf-Oc-61M">
+                                <rect key="frame" x="44" y="46" width="287" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="40"/>
+                                <color key="textColor" red="0.20048590190000001" green="0.48389040150000001" blue="0.53347636009999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="wKc-lS-Ts9"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fTH-yJ-Qk9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2129" y="26"/>
+        </scene>
     </scenes>
     <resources>
         <image name="home" width="401" height="401"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="lkw-gp-cAC"/>
+    </inferredMetricsTieBreakers>
 </document>
