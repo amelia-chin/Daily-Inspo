@@ -39,6 +39,10 @@ class DailyMessageViewController: UIViewController {
     }
     
     @IBAction func handleAddMessageButtonPress(_ sender: Any) {
+        italic()
+    }
+    
+    func italic() {
         addNewMessage()
     }
     
