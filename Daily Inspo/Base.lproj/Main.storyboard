@@ -92,10 +92,10 @@
             </objects>
             <point key="canvasLocation" x="1759" y="-922"/>
         </scene>
-        <!--View Controller-->
+        <!--Resources View Controller-->
         <scene sceneID="jb1-Yj-Sax">
             <objects>
-                <viewController id="8am-C2-J4f" sceneMemberID="viewController">
+                <viewController id="8am-C2-J4f" customClass="ResourcesViewController" customModule="Daily_Inspo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Zbj-cs-sCW">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -124,26 +124,8 @@
                                                 <color key="textColor" red="0.28299483780000001" green="0.13525999380000001" blue="0.51133419690000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- Crisis Respite Centers (in Manhattan," textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kIP-qe-XZp">
-                                                <rect key="frame" x="25.5" y="193" width="324" height="24"/>
-                                                <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="17"/>
-                                                <color key="textColor" red="0.28299483780000001" green="0.13525999380000001" blue="0.51133419690000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="the Bronx, Brooklyn, and Queens)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YPq-rm-SkU">
-                                                <rect key="frame" x="47" y="228" width="281" height="24"/>
-                                                <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="17"/>
-                                                <color key="textColor" red="0.28299483780000001" green="0.13525999380000001" blue="0.51133419690000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- National Suicide Prevention Lifeline :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ArA-hj-f1O">
                                                 <rect key="frame" x="28.5" y="263" width="318" height="24"/>
-                                                <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="17"/>
-                                                <color key="textColor" red="0.28299483780000001" green="0.13525999380000001" blue="0.51133419690000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1-800-273-TALK (1-800-273-8255)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="avb-6q-bCe">
-                                                <rect key="frame" x="35" y="298" width="305" height="24"/>
                                                 <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="17"/>
                                                 <color key="textColor" red="0.28299483780000001" green="0.13525999380000001" blue="0.51133419690000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -154,74 +136,20 @@
                                                 <color key="textColor" red="0.28299483780000001" green="0.13525999380000001" blue="0.51133419690000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- TrevorLifeline : 1-866-488-7386" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Kz-qd-cKA">
-                                                <rect key="frame" x="47" y="403" width="281" height="24"/>
-                                                <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="17"/>
-                                                <color key="textColor" red="0.28299483780000001" green="0.13525999380000001" blue="0.51133419690000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- TrevorText : text &quot;START&quot; to 678678" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d9j-F0-oIN">
                                                 <rect key="frame" x="26.5" y="438" width="322" height="24"/>
                                                 <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="17"/>
                                                 <color key="textColor" red="0.28299483780000001" green="0.13525999380000001" blue="0.51133419690000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- TrevorChat (online instant messaging)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fg7-zy-1Yd">
-                                                <rect key="frame" x="21" y="473" width="333" height="24"/>
-                                                <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="17"/>
-                                                <color key="textColor" red="0.28299483780000001" green="0.13525999380000001" blue="0.51133419690000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- Mental Health Apps :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YsM-SH-5Cj">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- Mental Health Apps :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YsM-SH-5Cj">
                                                 <rect key="frame" x="94" y="508" width="187" height="24"/>
-                                                <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="17"/>
-                                                <color key="textColor" red="0.28299483780000001" green="0.13525999380000001" blue="0.51133419690000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- Calm" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qye-4z-DBr">
-                                                <rect key="frame" x="44.5" y="543" width="56" height="24"/>
-                                                <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="17"/>
-                                                <color key="textColor" red="0.28299483780000001" green="0.13525999380000001" blue="0.51133419690000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- Moodpath" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bvQ-xm-5sv">
-                                                <rect key="frame" x="239" y="543" width="97" height="24"/>
-                                                <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="17"/>
-                                                <color key="textColor" red="0.28299483780000001" green="0.13525999380000001" blue="0.51133419690000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1-888-692-9355 (calling only)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vlc-ce-Vw0">
-                                                <rect key="frame" x="62" y="123" width="251" height="24"/>
-                                                <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="17"/>
-                                                <color key="textColor" red="0.28299483780000001" green="0.13525999380000001" blue="0.51133419690000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- Lifeline Chat (online instant messaging)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dQ2-Fu-St1">
-                                                <rect key="frame" x="16" y="333" width="343" height="24"/>
                                                 <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="17"/>
                                                 <color key="textColor" red="0.28299483780000001" green="0.13525999380000001" blue="0.51133419690000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- For more illness-specific help :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XSb-ag-Jjp">
                                                 <rect key="frame" x="55.5" y="578" width="264" height="24"/>
-                                                <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="17"/>
-                                                <color key="textColor" red="0.28299483780000001" green="0.13525999380000001" blue="0.51133419690000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- Mental Health America's screening " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TVg-6r-dCu">
-                                                <rect key="frame" x="33" y="613" width="309" height="24"/>
-                                                <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="17"/>
-                                                <color key="textColor" red="0.28299483780000001" green="0.13525999380000001" blue="0.51133419690000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="tools (Depression Test, Anxiety Test," textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tL7-S0-IZe">
-                                                <rect key="frame" x="33.5" y="648" width="308" height="24"/>
-                                                <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="17"/>
-                                                <color key="textColor" red="0.28299483780000001" green="0.13525999380000001" blue="0.51133419690000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bipolar Test, Youth Test, etc)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d37-tO-416">
-                                                <rect key="frame" x="65.5" y="683" width="244" height="24"/>
                                                 <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="17"/>
                                                 <color key="textColor" red="0.28299483780000001" green="0.13525999380000001" blue="0.51133419690000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -261,66 +189,166 @@
                                                     <segue destination="BYZ-38-t0r" kind="show" id="f3U-zq-UhT"/>
                                                 </connections>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- Headspace" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UP4-dm-bI2">
-                                                <rect key="frame" x="114.5" y="543" width="106" height="24"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mhG-nM-GNg">
+                                                <rect key="frame" x="16" y="327" width="343" height="36"/>
                                                 <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="17"/>
-                                                <color key="textColor" red="0.28299483780000001" green="0.13525999380000001" blue="0.51133419690000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
+                                                <state key="normal" title="- Lifeline Chat (online instant messaging)">
+                                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="lifelineChat:" destination="8am-C2-J4f" eventType="touchUpInside" id="eF2-FJ-LOp"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vJ2-Ob-pWH">
+                                                <rect key="frame" x="21" y="467" width="333" height="36"/>
+                                                <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="17"/>
+                                                <state key="normal" title="- TrevorChat (online instant messaging)"/>
+                                                <connections>
+                                                    <action selector="trevorChat:" destination="8am-C2-J4f" eventType="touchUpInside" id="o8p-dL-cCz"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eNN-8B-sqS">
+                                                <rect key="frame" x="35.5" y="607" width="304" height="36"/>
+                                                <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="17"/>
+                                                <state key="normal" title="- Mental Health America's screening"/>
+                                                <connections>
+                                                    <action selector="MHA1:" destination="8am-C2-J4f" eventType="touchUpInside" id="UE5-eW-eSP"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jan-gB-mL4">
+                                                <rect key="frame" x="33.5" y="642" width="308" height="36"/>
+                                                <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="17"/>
+                                                <state key="normal" title="tools (Depression Test, Anxiety Test,"/>
+                                                <connections>
+                                                    <action selector="MHA2:" destination="8am-C2-J4f" eventType="touchUpInside" id="XbB-re-1c3"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RAm-QK-I1R">
+                                                <rect key="frame" x="65.5" y="677" width="244" height="36"/>
+                                                <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="17"/>
+                                                <state key="normal" title="Bipolar Test, Youth Test, etc)"/>
+                                                <connections>
+                                                    <action selector="MHA3:" destination="8am-C2-J4f" eventType="touchUpInside" id="Bzl-OQ-33i"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QGK-LJ-MbS">
+                                                <rect key="frame" x="39.5" y="537" width="56" height="36"/>
+                                                <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="17"/>
+                                                <state key="normal" title="- Calm"/>
+                                                <connections>
+                                                    <action selector="calmApp:" destination="8am-C2-J4f" eventType="touchUpInside" id="eg4-Ch-Q8t"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wkX-gS-UqS">
+                                                <rect key="frame" x="114.5" y="537" width="106" height="36"/>
+                                                <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="17"/>
+                                                <state key="normal" title="- Headspace"/>
+                                                <connections>
+                                                    <action selector="headspaceApp:" destination="8am-C2-J4f" eventType="touchUpInside" id="QEO-nt-kx7"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7di-FN-TP6">
+                                                <rect key="frame" x="239" y="537" width="97" height="36"/>
+                                                <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="17"/>
+                                                <state key="normal" title="- Moodpath"/>
+                                                <connections>
+                                                    <action selector="moodpathApp:" destination="8am-C2-J4f" eventType="touchUpInside" id="pci-Az-Y8u"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XmO-RR-3lX">
+                                                <rect key="frame" x="25.5" y="192" width="324" height="36"/>
+                                                <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="17"/>
+                                                <state key="normal" title="- Crisis Respite Centers (in Manhattan,"/>
+                                                <connections>
+                                                    <action selector="CRC1:" destination="8am-C2-J4f" eventType="touchUpInside" id="8G9-ym-k10"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9hK-J6-eC5">
+                                                <rect key="frame" x="47" y="222" width="281" height="36"/>
+                                                <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="17"/>
+                                                <state key="normal" title="the Bronx, Brooklyn, and Queens)"/>
+                                                <connections>
+                                                    <action selector="CRC2:" destination="8am-C2-J4f" eventType="touchUpInside" id="lzR-q2-nGq"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vvt-eF-0fH">
+                                                <rect key="frame" x="117.5" y="117" width="140" height="36"/>
+                                                <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="17"/>
+                                                <state key="normal" title="1-888-692-9355"/>
+                                                <connections>
+                                                    <action selector="NYCWellNo:" destination="8am-C2-J4f" eventType="touchUpInside" id="fkJ-Rr-lbs"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kVF-ss-fc9">
+                                                <rect key="frame" x="35" y="292" width="305" height="36"/>
+                                                <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="17"/>
+                                                <state key="normal" title="1-800-273-TALK (1-800-273-8255)"/>
+                                                <connections>
+                                                    <action selector="NSPL:" destination="8am-C2-J4f" eventType="touchUpInside" id="NmD-0z-9cl"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="89w-PU-DIe">
+                                                <rect key="frame" x="47" y="397" width="281" height="36"/>
+                                                <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="17"/>
+                                                <state key="normal" title="- TrevorLifeline : 1-866-488-7386"/>
+                                                <connections>
+                                                    <action selector="trevorLifeline:" destination="8am-C2-J4f" eventType="touchUpInside" id="sEi-8P-tNU"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" red="1" green="0.88636906218881084" blue="0.92977804935511743" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstItem="bfB-wB-fQ5" firstAttribute="centerY" secondItem="kYi-cK-gJE" secondAttribute="centerY" constant="-400" id="0lb-JN-yUz"/>
                                             <constraint firstItem="lSZ-xW-Sxo" firstAttribute="centerY" secondItem="kYi-cK-gJE" secondAttribute="centerY" constant="-120" id="19E-bd-cbk"/>
                                             <constraint firstItem="XSb-ag-Jjp" firstAttribute="centerX" secondItem="kYi-cK-gJE" secondAttribute="centerX" id="1A1-uA-8SS"/>
-                                            <constraint firstItem="TVg-6r-dCu" firstAttribute="centerY" secondItem="kYi-cK-gJE" secondAttribute="centerY" constant="125" id="2Oj-ko-xi0"/>
-                                            <constraint firstItem="dQ2-Fu-St1" firstAttribute="centerX" secondItem="kYi-cK-gJE" secondAttribute="centerX" id="2gR-i0-a5D"/>
                                             <constraint firstItem="bGK-8T-lDb" firstAttribute="centerY" secondItem="kYi-cK-gJE" secondAttribute="centerY" constant="230" id="3nX-3Z-6A6"/>
                                             <constraint firstItem="WDs-NX-SSZ" firstAttribute="centerY" secondItem="kYi-cK-gJE" secondAttribute="centerY" constant="-450" id="4A9-Sd-qnu"/>
+                                            <constraint firstItem="89w-PU-DIe" firstAttribute="centerX" secondItem="kYi-cK-gJE" secondAttribute="centerX" id="4NT-fE-boT"/>
                                             <constraint firstItem="L9R-E2-jF8" firstAttribute="centerY" secondItem="kYi-cK-gJE" secondAttribute="centerY" constant="265" id="4i5-82-4Nc"/>
+                                            <constraint firstItem="eNN-8B-sqS" firstAttribute="centerY" secondItem="kYi-cK-gJE" secondAttribute="centerY" constant="125" id="54r-kk-QtF"/>
                                             <constraint firstItem="L9R-E2-jF8" firstAttribute="centerX" secondItem="kYi-cK-gJE" secondAttribute="centerX" id="6ML-g8-zLh"/>
-                                            <constraint firstItem="tL7-S0-IZe" firstAttribute="centerX" secondItem="kYi-cK-gJE" secondAttribute="centerX" id="6Yc-ET-dcc"/>
                                             <constraint firstItem="YsM-SH-5Cj" firstAttribute="centerX" secondItem="kYi-cK-gJE" secondAttribute="centerX" id="7VY-h7-eRX"/>
-                                            <constraint firstItem="qye-4z-DBr" firstAttribute="centerY" secondItem="kYi-cK-gJE" secondAttribute="centerY" constant="55" id="96d-1C-O6s"/>
-                                            <constraint firstItem="Fg7-zy-1Yd" firstAttribute="centerX" secondItem="kYi-cK-gJE" secondAttribute="centerX" id="9RM-Kt-GBe"/>
-                                            <constraint firstItem="Vlc-ce-Vw0" firstAttribute="centerX" secondItem="kYi-cK-gJE" secondAttribute="centerX" id="Aq8-P8-qhN"/>
-                                            <constraint firstItem="Fg7-zy-1Yd" firstAttribute="centerY" secondItem="kYi-cK-gJE" secondAttribute="centerY" constant="-15" id="BdS-WA-j9L"/>
+                                            <constraint firstItem="7di-FN-TP6" firstAttribute="centerX" secondItem="kYi-cK-gJE" secondAttribute="centerX" constant="100" id="9hQ-DP-eLJ"/>
+                                            <constraint firstItem="mhG-nM-GNg" firstAttribute="centerY" secondItem="kYi-cK-gJE" secondAttribute="centerY" constant="-155" id="ADJ-1a-Kat"/>
                                             <constraint firstItem="d9j-F0-oIN" firstAttribute="centerX" secondItem="kYi-cK-gJE" secondAttribute="centerX" id="CHm-zC-5LB"/>
-                                            <constraint firstItem="bvQ-xm-5sv" firstAttribute="centerX" secondItem="kYi-cK-gJE" secondAttribute="centerX" constant="100" id="FqO-VX-xC5"/>
-                                            <constraint firstItem="kIP-qe-XZp" firstAttribute="centerY" secondItem="kYi-cK-gJE" secondAttribute="centerY" constant="-295" id="GI7-0h-rPf"/>
+                                            <constraint firstItem="Jan-gB-mL4" firstAttribute="centerY" secondItem="kYi-cK-gJE" secondAttribute="centerY" constant="160" id="CSo-A6-Qyy"/>
+                                            <constraint firstItem="vvt-eF-0fH" firstAttribute="centerY" secondItem="kYi-cK-gJE" secondAttribute="centerY" constant="-365" id="Cfc-iL-tXd"/>
+                                            <constraint firstItem="vJ2-Ob-pWH" firstAttribute="centerY" secondItem="kYi-cK-gJE" secondAttribute="centerY" constant="-15" id="Czh-hj-CtP"/>
+                                            <constraint firstItem="eNN-8B-sqS" firstAttribute="centerX" secondItem="kYi-cK-gJE" secondAttribute="centerX" id="FzI-ZN-NMW"/>
                                             <constraint firstItem="bfB-wB-fQ5" firstAttribute="centerX" secondItem="kYi-cK-gJE" secondAttribute="centerX" id="GIF-Au-1lZ"/>
-                                            <constraint firstItem="avb-6q-bCe" firstAttribute="centerX" secondItem="kYi-cK-gJE" secondAttribute="centerX" id="Gcz-hR-Sr5"/>
-                                            <constraint firstItem="d37-tO-416" firstAttribute="centerX" secondItem="kYi-cK-gJE" secondAttribute="centerX" id="HDr-7D-IhG"/>
+                                            <constraint firstItem="vJ2-Ob-pWH" firstAttribute="centerX" secondItem="kYi-cK-gJE" secondAttribute="centerX" id="I9U-ze-33B"/>
                                             <constraint firstItem="Lh5-gH-lAH" firstAttribute="centerY" secondItem="kYi-cK-gJE" secondAttribute="centerY" constant="400" id="IFf-N3-2su"/>
-                                            <constraint firstItem="YPq-rm-SkU" firstAttribute="centerX" secondItem="kYi-cK-gJE" secondAttribute="centerX" id="K29-V6-iL3"/>
-                                            <constraint firstItem="dQ2-Fu-St1" firstAttribute="centerY" secondItem="kYi-cK-gJE" secondAttribute="centerY" constant="-155" id="M9I-qe-4Sg"/>
-                                            <constraint firstItem="tL7-S0-IZe" firstAttribute="centerY" secondItem="kYi-cK-gJE" secondAttribute="centerY" constant="160" id="Q3h-1N-v9s"/>
+                                            <constraint firstItem="Jan-gB-mL4" firstAttribute="centerX" secondItem="kYi-cK-gJE" secondAttribute="centerX" id="JLp-41-rMc"/>
+                                            <constraint firstItem="QGK-LJ-MbS" firstAttribute="centerY" secondItem="kYi-cK-gJE" secondAttribute="centerY" constant="55" id="KVr-3p-TG4"/>
+                                            <constraint firstItem="RAm-QK-I1R" firstAttribute="centerY" secondItem="kYi-cK-gJE" secondAttribute="centerY" constant="195" id="MBu-9X-G2H"/>
+                                            <constraint firstItem="kVF-ss-fc9" firstAttribute="centerY" secondItem="kYi-cK-gJE" secondAttribute="centerY" constant="-190" id="MUH-r3-wUx"/>
+                                            <constraint firstItem="vvt-eF-0fH" firstAttribute="centerX" secondItem="kYi-cK-gJE" secondAttribute="centerX" id="Ozv-C3-wQY"/>
+                                            <constraint firstItem="QGK-LJ-MbS" firstAttribute="centerX" secondItem="kYi-cK-gJE" secondAttribute="centerX" constant="-120" id="PWO-Zq-Lgm"/>
                                             <constraint firstItem="d9j-F0-oIN" firstAttribute="centerY" secondItem="kYi-cK-gJE" secondAttribute="centerY" constant="-50" id="QE4-TE-BHP"/>
-                                            <constraint firstItem="UP4-dm-bI2" firstAttribute="centerX" secondItem="kYi-cK-gJE" secondAttribute="centerX" constant="-20" id="Qy9-Ys-qho"/>
-                                            <constraint firstItem="YPq-rm-SkU" firstAttribute="centerY" secondItem="kYi-cK-gJE" secondAttribute="centerY" constant="-260" id="ShQ-Wb-HEA"/>
                                             <constraint firstAttribute="height" constant="1000" id="T0R-5W-CVj"/>
-                                            <constraint firstItem="3Kz-qd-cKA" firstAttribute="centerX" secondItem="kYi-cK-gJE" secondAttribute="centerX" id="TbP-ZL-eTz"/>
                                             <constraint firstItem="Lh5-gH-lAH" firstAttribute="centerX" secondItem="kYi-cK-gJE" secondAttribute="centerX" id="ToU-pv-K9M"/>
                                             <constraint firstItem="ywG-cN-b40" firstAttribute="centerX" secondItem="kYi-cK-gJE" secondAttribute="centerX" id="UrA-AE-Me6"/>
+                                            <constraint firstItem="7di-FN-TP6" firstAttribute="centerY" secondItem="kYi-cK-gJE" secondAttribute="centerY" constant="55" id="V5U-cx-l8U"/>
                                             <constraint firstItem="hcy-w0-u5S" firstAttribute="centerY" secondItem="kYi-cK-gJE" secondAttribute="centerY" constant="335" id="XAw-RC-DEk"/>
-                                            <constraint firstItem="kIP-qe-XZp" firstAttribute="centerX" secondItem="kYi-cK-gJE" secondAttribute="centerX" id="XmT-3p-PRg"/>
+                                            <constraint firstItem="89w-PU-DIe" firstAttribute="centerY" secondItem="kYi-cK-gJE" secondAttribute="centerY" constant="-85" id="XHE-Cd-EJU"/>
                                             <constraint firstItem="bGK-8T-lDb" firstAttribute="centerX" secondItem="kYi-cK-gJE" secondAttribute="centerX" id="Zyv-WW-9jG"/>
                                             <constraint firstItem="YsM-SH-5Cj" firstAttribute="centerY" secondItem="kYi-cK-gJE" secondAttribute="centerY" constant="20" id="a6F-r4-mDl"/>
-                                            <constraint firstItem="qye-4z-DBr" firstAttribute="centerX" secondItem="kYi-cK-gJE" secondAttribute="centerX" constant="-115" id="ajk-VP-35L"/>
+                                            <constraint firstItem="9hK-J6-eC5" firstAttribute="centerX" secondItem="kYi-cK-gJE" secondAttribute="centerX" id="ag4-py-H2F"/>
+                                            <constraint firstItem="XmO-RR-3lX" firstAttribute="centerY" secondItem="kYi-cK-gJE" secondAttribute="centerY" constant="-290" id="bHz-DG-vxi"/>
                                             <constraint firstItem="ArA-hj-f1O" firstAttribute="centerY" secondItem="kYi-cK-gJE" secondAttribute="centerY" constant="-225" id="bPA-ti-Zei"/>
                                             <constraint firstItem="ArA-hj-f1O" firstAttribute="centerX" secondItem="kYi-cK-gJE" secondAttribute="centerX" id="d5t-gu-UfU"/>
-                                            <constraint firstItem="Vlc-ce-Vw0" firstAttribute="centerY" secondItem="kYi-cK-gJE" secondAttribute="centerY" constant="-365" id="dM4-3v-fbc"/>
-                                            <constraint firstItem="3Kz-qd-cKA" firstAttribute="centerY" secondItem="kYi-cK-gJE" secondAttribute="centerY" constant="-85" id="fKJ-Rp-QnI"/>
-                                            <constraint firstItem="bvQ-xm-5sv" firstAttribute="centerY" secondItem="kYi-cK-gJE" secondAttribute="centerY" constant="55" id="hWr-eT-Gva"/>
+                                            <constraint firstItem="9hK-J6-eC5" firstAttribute="centerY" secondItem="kYi-cK-gJE" secondAttribute="centerY" constant="-260" id="fzf-DJ-cHi"/>
+                                            <constraint firstItem="mhG-nM-GNg" firstAttribute="centerX" secondItem="kYi-cK-gJE" secondAttribute="centerX" id="gVq-Al-RBA"/>
+                                            <constraint firstItem="wkX-gS-UqS" firstAttribute="centerX" secondItem="kYi-cK-gJE" secondAttribute="centerX" constant="-20" id="giT-1w-1mE"/>
+                                            <constraint firstItem="wkX-gS-UqS" firstAttribute="centerY" secondItem="kYi-cK-gJE" secondAttribute="centerY" constant="55" id="heR-Dx-4Us"/>
+                                            <constraint firstItem="XmO-RR-3lX" firstAttribute="centerX" secondItem="kYi-cK-gJE" secondAttribute="centerX" id="j7f-CS-TEa"/>
                                             <constraint firstItem="lSZ-xW-Sxo" firstAttribute="centerX" secondItem="kYi-cK-gJE" secondAttribute="centerX" id="jOw-U4-8DV"/>
-                                            <constraint firstItem="avb-6q-bCe" firstAttribute="centerY" secondItem="kYi-cK-gJE" secondAttribute="centerY" constant="-190" id="jg8-wH-TOY"/>
-                                            <constraint firstItem="UP4-dm-bI2" firstAttribute="centerY" secondItem="kYi-cK-gJE" secondAttribute="centerY" constant="55" id="nyk-mf-gbW"/>
+                                            <constraint firstItem="RAm-QK-I1R" firstAttribute="centerX" secondItem="kYi-cK-gJE" secondAttribute="centerX" id="k4S-qZ-tzm"/>
                                             <constraint firstItem="s2V-E1-LkS" firstAttribute="centerX" secondItem="kYi-cK-gJE" secondAttribute="centerX" id="oeH-1f-fPY"/>
                                             <constraint firstItem="WDs-NX-SSZ" firstAttribute="centerX" secondItem="kYi-cK-gJE" secondAttribute="centerX" id="pqN-QH-Zc7"/>
+                                            <constraint firstItem="kVF-ss-fc9" firstAttribute="centerX" secondItem="kYi-cK-gJE" secondAttribute="centerX" id="pxj-W7-9fg"/>
                                             <constraint firstItem="s2V-E1-LkS" firstAttribute="centerY" secondItem="kYi-cK-gJE" secondAttribute="centerY" constant="300" id="qzK-cc-k6y"/>
-                                            <constraint firstItem="TVg-6r-dCu" firstAttribute="centerX" secondItem="kYi-cK-gJE" secondAttribute="centerX" id="rtp-nT-sCS"/>
                                             <constraint firstItem="ywG-cN-b40" firstAttribute="centerY" secondItem="kYi-cK-gJE" secondAttribute="centerY" constant="-330" id="vNB-IF-1b5"/>
-                                            <constraint firstItem="d37-tO-416" firstAttribute="centerY" secondItem="kYi-cK-gJE" secondAttribute="centerY" constant="195" id="yEx-CP-C3X"/>
                                             <constraint firstItem="hcy-w0-u5S" firstAttribute="centerX" secondItem="kYi-cK-gJE" secondAttribute="centerX" id="yc6-z1-SET"/>
                                             <constraint firstItem="XSb-ag-Jjp" firstAttribute="centerY" secondItem="kYi-cK-gJE" secondAttribute="centerY" constant="90" id="ycd-Nf-APh"/>
                                         </constraints>
@@ -348,7 +376,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YNW-P0-lPE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1391" y="175"/>
+            <point key="canvasLocation" x="1381.5999999999999" y="173.61319340329837"/>
         </scene>
         <!--Daily Message View Controller-->
         <scene sceneID="pm5-bY-5GS">
@@ -370,7 +398,7 @@
                                     <constraint firstAttribute="width" constant="276" id="gsO-0s-6C0"/>
                                     <constraint firstAttribute="height" constant="100" id="zeu-pz-UlU"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="20"/>
+                                <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="22"/>
                                 <color key="textColor" red="1" green="0.1487327587" blue="0.49356187280000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -416,7 +444,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.83927833021751086" green="0.91443612437506705" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="bGr-cV-KXd" firstAttribute="centerX" secondItem="Fxr-NI-Hcr" secondAttribute="centerX" id="6Qk-zF-eC6"/>
                             <constraint firstItem="pbJ-oc-Zoa" firstAttribute="centerX" secondItem="Fxr-NI-Hcr" secondAttribute="centerX" id="B2B-LC-6nq"/>
