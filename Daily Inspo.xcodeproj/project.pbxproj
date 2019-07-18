@@ -11,9 +11,9 @@
 		CC4AD2F522DCFC9200F88C97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4AD2F422DCFC9200F88C97 /* AppDelegate.swift */; };
 		CC4AD2F722DCFC9200F88C97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4AD2F622DCFC9200F88C97 /* ViewController.swift */; };
 		CC4AD2FA22DCFC9200F88C97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC4AD2F822DCFC9200F88C97 /* Main.storyboard */; };
-		CC4AD2FD22DCFC9200F88C97 /* Daily_Inspo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CC4AD2FB22DCFC9200F88C97 /* Daily_Inspo.xcdatamodeld */; };
 		CC4AD2FF22DCFC9500F88C97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC4AD2FE22DCFC9500F88C97 /* Assets.xcassets */; };
 		CC4AD30222DCFC9500F88C97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC4AD30022DCFC9500F88C97 /* LaunchScreen.storyboard */; };
+		CCCE88A722DF96FA006109DA /* Daily_Inspo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CCCE88A522DF96FA006109DA /* Daily_Inspo.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +22,10 @@
 		CC4AD2F422DCFC9200F88C97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC4AD2F622DCFC9200F88C97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CC4AD2F922DCFC9200F88C97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CC4AD2FC22DCFC9200F88C97 /* Daily_Inspo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Daily_Inspo.xcdatamodel; sourceTree = "<group>"; };
 		CC4AD2FE22DCFC9500F88C97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC4AD30122DCFC9500F88C97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC4AD30322DCFC9500F88C97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCCE88A622DF96FA006109DA /* Daily_Inspo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Daily_Inspo.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,11 +61,11 @@
 				CC4AD2F422DCFC9200F88C97 /* AppDelegate.swift */,
 				CC4AD2F622DCFC9200F88C97 /* ViewController.swift */,
 				CC4AD2F822DCFC9200F88C97 /* Main.storyboard */,
-				CC4AD2FE22DCFC9500F88C97 /* Assets.xcassets */,
 				CC4AD30022DCFC9500F88C97 /* LaunchScreen.storyboard */,
+				CC4AD2FE22DCFC9500F88C97 /* Assets.xcassets */,
 				CC4AD30322DCFC9500F88C97 /* Info.plist */,
-				CC4AD2FB22DCFC9200F88C97 /* Daily_Inspo.xcdatamodeld */,
 				CC3BA4C522DF664B00BE6C18 /* DailyMessageViewController.swift */,
+				CCCE88A522DF96FA006109DA /* Daily_Inspo.xcdatamodeld */,
 			);
 			path = "Daily Inspo";
 			sourceTree = "<group>";
@@ -142,9 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC3BA4C622DF664B00BE6C18 /* DailyMessageViewController.swift in Sources */,
-				CC4AD2FD22DCFC9200F88C97 /* Daily_Inspo.xcdatamodeld in Sources */,
 				CC4AD2F722DCFC9200F88C97 /* ViewController.swift in Sources */,
 				CC4AD2F522DCFC9200F88C97 /* AppDelegate.swift in Sources */,
+				CCCE88A722DF96FA006109DA /* Daily_Inspo.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,12 +346,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		CC4AD2FB22DCFC9200F88C97 /* Daily_Inspo.xcdatamodeld */ = {
+		CCCE88A522DF96FA006109DA /* Daily_Inspo.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				CC4AD2FC22DCFC9200F88C97 /* Daily_Inspo.xcdatamodel */,
+				CCCE88A622DF96FA006109DA /* Daily_Inspo.xcdatamodel */,
 			);
-			currentVersion = CC4AD2FC22DCFC9200F88C97 /* Daily_Inspo.xcdatamodel */;
+			currentVersion = CCCE88A622DF96FA006109DA /* Daily_Inspo.xcdatamodel */;
 			path = Daily_Inspo.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

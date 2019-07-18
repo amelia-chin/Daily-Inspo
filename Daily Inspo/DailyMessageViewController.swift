@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CoreData
 
 class DailyMessageViewController: UIViewController {
     
@@ -38,12 +39,28 @@ class DailyMessageViewController: UIViewController {
     }
     
     @IBAction func handleAddMessageButtonPress(_ sender: Any) {
+        addNewMessage()
     }
     
     func getRandomDailyMessage() {
         var randomDailyMessage = dailyMessages.randomElement()
         dailyMessageText.text = randomDailyMessage
     }
+    
+    func addNewMessage() {
+        if (inputDailyMessage.text != "") {
+            let context = (UIApplication.shared.delegate as!   AppDelegate).persistentContainer.viewContext
+            let newMessage = DailyMessage(context: context)
+            newMessage.dailyMessage = inputDailyMessage.text as! NSObject as! String
+            (UIApplication.shared.delegate as! AppDelegate).saveContext()
+            inputDailyMessage.text = ""
+            inputDailyMessage.resignFirstResponder()
+            dailyMessages.append(newMessage.dailyMessage as! String)
+        }
+    }
+    
+    
+
     /*
     // MARK: - Navigation
 

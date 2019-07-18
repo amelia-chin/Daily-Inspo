@@ -348,7 +348,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YNW-P0-lPE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2098" y="175"/>
+            <point key="canvasLocation" x="1391" y="175"/>
         </scene>
         <!--Daily Message View Controller-->
         <scene sceneID="pm5-bY-5GS">
@@ -395,13 +395,24 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5re-QD-Qfp">
-                                <rect key="frame" x="166.5" y="438.5" width="42" height="40"/>
+                                <rect key="frame" x="162.5" y="438.5" width="50" height="40"/>
                                 <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="20"/>
-                                <state key="normal" title="Add">
+                                <state key="normal" title="ADD">
                                     <color key="titleColor" red="0.51133419690000004" green="0.061347322679999997" blue="0.27552038429999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="handleAddMessageButtonPress:" destination="XUp-GH-vgQ" eventType="touchUpInside" id="6r5-d7-VTQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OUk-GG-1BL">
+                                <rect key="frame" x="145.5" y="549" width="84" height="69"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="69" id="vjD-i8-tAD"/>
+                                    <constraint firstAttribute="width" constant="84" id="zHy-wr-Ef6"/>
+                                </constraints>
+                                <state key="normal" image="home"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="f96-ma-Xnb"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -411,6 +422,8 @@
                             <constraint firstItem="pbJ-oc-Zoa" firstAttribute="centerX" secondItem="Fxr-NI-Hcr" secondAttribute="centerX" id="B2B-LC-6nq"/>
                             <constraint firstItem="5re-QD-Qfp" firstAttribute="centerY" secondItem="Fxr-NI-Hcr" secondAttribute="centerY" constant="125" id="TEg-Pb-hIo"/>
                             <constraint firstItem="4Wf-Oc-61M" firstAttribute="centerX" secondItem="Fxr-NI-Hcr" secondAttribute="centerX" id="Ux2-zA-7Sx"/>
+                            <constraint firstItem="OUk-GG-1BL" firstAttribute="centerX" secondItem="Fxr-NI-Hcr" secondAttribute="centerX" id="YDD-Fy-NoD"/>
+                            <constraint firstItem="OUk-GG-1BL" firstAttribute="centerY" secondItem="Fxr-NI-Hcr" secondAttribute="centerY" constant="250" id="b00-mj-GMh"/>
                             <constraint firstItem="ulW-Rx-h4s" firstAttribute="centerX" secondItem="Fxr-NI-Hcr" secondAttribute="centerX" id="fWe-W1-xqK"/>
                             <constraint firstItem="ulW-Rx-h4s" firstAttribute="centerY" secondItem="Fxr-NI-Hcr" secondAttribute="centerY" constant="75" id="ikB-7h-pWR"/>
                             <constraint firstItem="4Wf-Oc-61M" firstAttribute="centerY" secondItem="Fxr-NI-Hcr" secondAttribute="centerY" constant="-300" id="lCM-Kj-bFo"/>
@@ -427,7 +440,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fTH-yJ-Qk9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2760.8000000000002" y="25.637181409295355"/>
+            <point key="canvasLocation" x="2716" y="25"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="l4r-FB-yYC">
@@ -475,7 +488,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="312" id="6HN-Ac-Xgu"/>
                                                 </constraints>
-                                                <mutableString key="text">- Talk to them in a space that is comfortable where you won't likely be interrupted and where there are likely minimal distractions.   
+                                                <string key="text">- Talk to them in a space that is comfortable where you won't likely be interrupted and where there are likely minimal distractions.   
                                                                                                                                             - Ease into the conversations, gradually. It may be that person is not in a place to talk and that is OK. Greeting them and extending a gentle kindness can go a long way. Sometimes less is more.
 
 - Be sure to speak in a relaxed and calm manner.      
@@ -494,7 +507,7 @@
 
 - Genuinely express your concern.
 
-- Give the person hope for recovery, offer encouragement and prayers.</mutableString>
+- Give the person hope for recovery, offer encouragement and prayers.</string>
                                                 <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="17"/>
                                                 <color key="textColor" red="0.28582415803108807" green="0.04303032632958978" blue="0.26334304045450008" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -519,7 +532,7 @@
                                             <constraint firstAttribute="height" constant="1500" id="P2U-7z-A4P"/>
                                             <constraint firstItem="Eef-Nh-k3R" firstAttribute="centerX" secondItem="OdH-Iy-Li2" secondAttribute="centerX" id="SOa-Jy-P2M"/>
                                             <constraint firstItem="SUi-dh-QFJ" firstAttribute="top" secondItem="Eef-Nh-k3R" secondAttribute="bottom" constant="136.5" id="bIT-74-Vb5">
-                                                <mutableString key="userLabel">Button.top = - Talk to them in a space that is comfortable where you won't likely be interrupted and where there are likely minimal distractions.                                                                                                                                                - Ease into the conversations, gradually. It may be that person is not in a place to talk and that is OK. Greeting them and extending a gentle kindness can go a long way. Sometimes less is more.  - Be sure to speak in a relaxed and calm manner.        - Communicate in a straightfoward manner and stick to one topic at a time.  - Be a good listener, be responsive and make eye contact with a caring approach.  - Give them the opportunity to talk and open up but don't press them.  - Speak at a level appropiate to their age and development level. Keep in mind that mental illness has nothing to do with a person's intelligence.  - Be aware of the person becoming upset or confused by your converstation with them.             - Show respect and understanding for how they describe and interpret their symptoms.  - Genuinely express your concern.  - Give the person hope for recovery, offer encouragement and prayers..bottom + 136.5</mutableString>
+                                                <string key="userLabel">Button.top = - Talk to them in a space that is comfortable where you won't likely be interrupted and where there are likely minimal distractions.                                                                                                                                                - Ease into the conversations, gradually. It may be that person is not in a place to talk and that is OK. Greeting them and extending a gentle kindness can go a long way. Sometimes less is more.  - Be sure to speak in a relaxed and calm manner.        - Communicate in a straightfoward manner and stick to one topic at a time.  - Be a good listener, be responsive and make eye contact with a caring approach.  - Give them the opportunity to talk and open up but don't press them.  - Speak at a level appropiate to their age and development level. Keep in mind that mental illness has nothing to do with a person's intelligence.  - Be aware of the person becoming upset or confused by your converstation with them.             - Show respect and understanding for how they describe and interpret their symptoms.  - Genuinely express your concern.  - Give the person hope for recovery, offer encouragement and prayers..bottom + 136.5</string>
                                             </constraint>
                                             <constraint firstItem="Auj-G4-UHR" firstAttribute="top" secondItem="OdH-Iy-Li2" secondAttribute="top" constant="54" id="bkD-Qw-bhw"/>
                                         </constraints>
@@ -547,7 +560,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aL3-gX-xfZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1398" y="400"/>
+            <point key="canvasLocation" x="2060" y="399"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="15U-xi-evP">
@@ -569,12 +582,12 @@
                                                     <constraint firstAttribute="width" constant="277" id="cKO-qO-XqZ"/>
                                                     <constraint firstAttribute="height" constant="700" id="u0t-Yd-dIe"/>
                                                 </constraints>
-                                                <mutableString key="text"> Mental health is made up of our emotional, psychological, and social well-being. It is determined by continuous indicators that affect someone’s day-to-day life, schoolwork, relationships, etc. In other words, it’s evident mental health is a significant part of our lives. A study showed that in youth 10-24, suicide was the second leading cause of death. This proves that untreated poor mental health could potentially lead to life-threatening consequences. 
+                                                <string key="text"> Mental health is made up of our emotional, psychological, and social well-being. It is determined by continuous indicators that affect someone’s day-to-day life, schoolwork, relationships, etc. In other words, it’s evident mental health is a significant part of our lives. A study showed that in youth 10-24, suicide was the second leading cause of death. This proves that untreated poor mental health could potentially lead to life-threatening consequences. 
 Here are some other studies about mental health:
 -20% of youth ages 13-18 have a mental health condition     
 -25% of youth have clinical depression 
 -8% of youth have an anxiety disorder
--50% of all mental health problems start at age 14</mutableString>
+-50% of all mental health problems start at age 14</string>
                                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="20"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -655,6 +668,6 @@ Here are some other studies about mental health:
         <image name="home" width="401" height="401"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="bLw-Tu-TCK"/>
+        <segue reference="f3U-zq-UhT"/>
     </inferredMetricsTieBreakers>
 </document>
